@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureResumeConnectionString": "AccountEndpoint=https://vithuren-azureresume.documents.azure.com:443/;AccountKey=KbCh4nFpuX23C5qqnimeOfhtFnAuvHZVErCPfTYNPK0fqRnFmJi8wcsRVBHpzxDjUkWVxSROdFv6zrwOP2fy2g==;"
+  },
+  "Host": 
+  {
+    "CORS": "*"
+  }
+}
