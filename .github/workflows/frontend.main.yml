@@ -16,7 +16,7 @@ jobs:
     - uses: azure/login@v1
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          client-secret: -~J8Q~mrOPV_1bsGA6rmZHyFk.Nx2WNXW-SgabRe
+          client-secret: ${{ secrets.AZURE_CLIENT_SECRET }}
 
     - name: Upload to blob storage
       uses: azure/CLI@v1
